@@ -1,5 +1,16 @@
 {
-  "dependencies": {
+  "name": "desafio-cypress-qa",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+  "test:headless": "cypress run --headed --browser chrome"
+},
+"dependencies": {
     "@faker-js/faker": "^9.8.0",
     "cypress": "^14.3.3"
   }
